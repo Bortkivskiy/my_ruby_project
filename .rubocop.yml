@@ -1,0 +1,15 @@
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: enable # Активувати нові правила за замовчуванням
+
+Layout/LineLength:
+  Max: 120  # Максимальна довжина рядка
+
+Style/Documentation:
+  Enabled: true  # Вимога до документування класів і методів
+
+Metrics/MethodLength:
+  Max: 20  # Максимальна кількість рядків у методах
+  
+AllCops:
+  NewCops: enable
